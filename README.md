@@ -45,4 +45,4 @@ Once you have the map open, you can:
 4.  **Change Your Perspective**: Zoom in, pan around, and tilt the map to explore the geographic relationships from different angles.
 
 ---
-This project is managed by the **mapping_aficionados** organization for ESU 2025.
+
