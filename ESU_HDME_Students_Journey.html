@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Students' Journeys to Besançon</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <style>
+    #map { height: 100vh; width: 100%; }
+    body { margin: 0; font-family: sans-serif; }
+  </style>
+</head>
+<body>
+
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script>
+  const map = L.map('map').setView([45, 10], 3);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(map);
+
+  function makeIcon(url) {
+    return L.icon({
+      iconUrl: url,
+      iconSize: [38, 38],
+      iconAnchor: [19, 38],
+      popupAnchor: [0, -30]
+    });
+  }
+
+  const icons = {
+    Sabina: makeIcon('https://cdn-icons-png.flaticon.com/512/4829/4829628.png'),
+    Rim: makeIcon('https://cdn-icons-png.flaticon.com/512/4557/4557491.png'),
+    Lotte: makeIcon('https://cdn-icons-png.flaticon.com/512/702/702020.png'),
+    Wanshu: makeIcon('https://cdn-icons-png.flaticon.com/512/4329/4329449.png'),
+    Tommaso: makeIcon('https://cdn-icons-png.flaticon.com/512/3371/3371839.png'),
+    Meta: makeIcon('https://cdn-icons-png.flaticon.com/512/4126/4126323.png'),
+    Jessie: makeIcon('https://cdn-icons-png.flaticon.com/512/13482/13482084.png'),
+    Adam: makeIcon('https://cdn-icons-png.flaticon.com/512/4140/4140044.png')
+  };
+
+  const coords = {
+    Peru: [-12.0464, -77.0428], Sevilla: [37.3886, -5.9823], Madrid: [40.4168, -3.7038],
+    Barcelona: [41.3851, 2.1734], Paris: [48.8566, 2.3522], Besancon: [47.2378, 6.0251],
+    Cairo: [30.0444, 31.2357], Lyon: [45.7640, 4.8357],
+    Bruges: [51.2093, 3.2247], Brussels: [50.8503, 4.3517], Luxembourg: [49.6117, 6.1319],
+    Shanghai: [31.2304, 121.4737], Xiamen: [24.4798, 118.0894], Dijon: [47.3220, 5.0415],
+    Tokyo: [35.6762, 139.6503], Komenda: [46.2006, 14.5383], Ljubljana: [46.0569, 14.5058],
+    Zagreb: [45.8150, 15.9819], Basel: [47.5596, 7.5886], Mulhouse: [47.7508, 7.3359],
+    Yinchuan: [38.4872, 106.2309], Jacksonville: [39.7334, -90.2290], Chicago: [41.8781, -87.6298], Zurich: [47.3769, 8.5417]
+  };
+
+  const students = [
+    {
+      name: 'Sabina',
+      institute: 'Pontifical Catholic University of Peru',
+      path: ['Peru', 'Sevilla', 'Madrid', 'Barcelona', 'Paris', 'Besancon']
+    },
+    {
+      name: 'Rim',
+      institute: 'Université Libre de Bruxelles',
+      path: ['Cairo', 'Lyon', 'Besancon']
+    },
+    {
+      name: 'Lotte',
+      institute: 'College of Europe, Natolin',
+      path: ['Bruges', 'Brussels', 'Luxembourg', 'Besancon']
+    },
+    {
+      name: 'Wanshu',
+      institute: 'University of Luxembourg',
+      path: ['Shanghai', 'Xiamen', 'Paris', 'Lyon', 'Dijon', 'Besancon']
+    },
+    {
+      name: 'Tommaso',
+      institute: 'Wenzhou Kean University',
+      path: ['Tokyo', 'Shanghai', 'Paris', 'Besancon']
+    },
+    {
+      name: 'Meta',
+      institute: 'University of Ljubljana',
+      path: ['Komenda', 'Ljubljana', 'Zagreb', 'Basel', 'Mulhouse', 'Besancon']
+    },
+    {
+      name: 'Jessie',
+      institute: 'Nankai University',
+      path: ['Yinchuan', 'Shanghai', 'Paris', 'Besancon']
+    },
+    {
+      name: 'Adam',
+      institute: 'Illinois College',
+      path: ['Jacksonville', 'Chicago', 'Zurich', 'Besancon']
+    }
+  ];
+
+  students.forEach(student => {
+    const latlngs = student.path.map(city => coords[city]);
+
+    L.polyline(latlngs, {
+      color: 'hsl(' + Math.random() * 360 + ', 70%, 50%)',
+      weight: 4
+    }).addTo(map);
+
+    const startCoords = latlngs[0];
+    const popupContent = `<strong>${student.name}</strong><br>${student.institute}`;
+    L.marker(startCoords, { icon: icons[student.name] })
+      .addTo(map)
+      .bindPopup(popupContent);
+  });
+</script>
+
+</body>
+</html>
