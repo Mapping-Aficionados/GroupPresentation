@@ -1,0 +1,46 @@
+Name,Point_Type,Point_Name,Latitude,Longitude,Point_Order
+Sabina,University,Pontifical Catholic University of Peru,-12.0690919,-77.0782022,0
+Sabina,Departure,Peru,-9.189967,-75.015152,1
+Sabina,Stop,Sevilla,37.3890924,-5.9844589,2
+Sabina,Stop,Madrid,40.4167279,-3.7032905,3
+Sabina,Stop,Barcelona,41.3873974,2.168568,4
+Sabina,Stop,Paris,48.8575475,2.3513765,5
+Sabina,Final,Besançon,47.237829,6.0240539,6
+Rim,University,Université Libre de Bruxelles,50.8132068,4.3822222,0
+Rim,Departure,Cairo,30.0444196,31.2357116,1
+Rim,Stop,Lyon,45.764043,4.835659,2
+Rim,Final,Besançon,47.237829,6.0240539,3
+Lotte,University,"College of Europe, Natolin",52.1383564,21.072519,0
+Lotte,Departure,Bruges,51.2084508,3.2250586,1
+Lotte,Stop,Brussels,50.8477029,4.3572001,2
+Lotte,Stop,Luxembourg,49.815273,6.129583,3
+Lotte,Final,Besançon,47.237829,6.0240539,4
+Wanshu,University,University of Luxembourg,49.504184,5.9493425,0
+Wanshu,Departure,Shanghai,31.230416,121.473701,1
+Wanshu,Stop,Xiamen,24.4795099,118.08948,2
+Wanshu,Stop,Paris,48.8575475,2.3513765,3
+Wanshu,Stop,Lyon,45.764043,4.835659,4
+Wanshu,Stop,Dijon,47.3301336,5.0480484,5
+Wanshu,Final,Besançon,47.237829,6.0240539,6
+Tommaso,University,Wenzhou Kean University,27.916388,120.653688,0
+Tommaso,Departure,Tokyo,35.6764225,139.650027,1
+Tommaso,Stop,Shanghai,31.230416,121.473701,2
+Tommaso,Stop,Paris,48.8575475,2.3513765,3
+Tommaso,Final,Besançon,47.237829,6.0240539,4
+Meta,University,University of Ljubljana,46.0491938,14.5041552,0
+Meta,Departure,"Komenda, Slovenia",46.2052815,14.5391653,1
+Meta,Stop,Ljubljana,46.0569465,14.5057515,2
+Meta,Stop,Zagreb,45.8150108,15.981919,3
+Meta,Stop,Basel,47.5595986,7.5885761,4
+Meta,Stop,Mulhouse,47.750839,7.335888,5
+Meta,Final,Besançon,47.237829,6.0240539,6
+Jessie,University,Nankai University,39.105664,117.15769,0
+Jessie,Departure,Yinchuan,38.4862899,106.23245,1
+Jessie,Stop,Shanghai,31.230416,121.473701,2
+Jessie,Stop,Paris,48.8575475,2.3513765,3
+Jessie,Final,Besançon,47.237829,6.0240539,4
+Adam,University,Illinois College,39.7321849,-90.2469327,0
+Adam,Departure,"Jacksonville,il",39.7321849,-90.2469327,1
+Adam,Stop,Chicago,41.88325,-87.6323879,2
+Adam,Stop,Zurich,47.3768866,8.541694,3
+Adam,Final,Besançon,47.237829,6.0240539,4
