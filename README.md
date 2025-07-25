@@ -41,7 +41,7 @@ A map is more than just points; it's a canvas for storytelling. In our Kepler.gl
 
 We invite you to interact with the map to discover these stories for yourself.
 
-➡️ **[Insert the Public Link to Your Kepler.gl Map Here]**
+<iframe style='width: 800px; height: 600px;' src='MappersTravels.html'></iframe>
 
 Once you have the map open, you can:
 
