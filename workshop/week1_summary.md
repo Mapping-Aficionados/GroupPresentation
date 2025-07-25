@@ -25,3 +25,13 @@ This week, we dove into the world of **Humanities Data and Mapping Environments*
     *   Finally, we looked to the future by exploring how **AI coding assistants** can help us modify and enhance our web maps, contrasting manual creation with automated analysis.
 
 In one week, we've gone from brainstorming ideas to creating and publishing live, interactive spatial stories.
+
+### Our Week in Words: An Interactive Word Cloud
+
+Here is an interactive word cloud generated from our workshop syllabus. Click on the words to explore the data!
+
+<iframe 
+  src="https://voyant-tools.org/?corpus=ee53533cad42619aa2362cbca6c9b6d1&palette=Observable10&stopList=keywords-9155808726106eaa4db5c9f66af059e1&whiteList=&visible=125&view=Cirrus"
+  style="width: 100%; height: 600px; border: 1px solid #ccc;">
+  Your browser does not support iframes.
+</iframe>
