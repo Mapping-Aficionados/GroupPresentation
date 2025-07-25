@@ -11,7 +11,7 @@ The core of this project is to take tabular geographic data and use it to tell a
 
 ## The Dataset
 
-Our dataset is stored in the `/data/esu2025_journeys.csv` file. It captures the geographic origins and travel itineraries of each participant.
+Our dataset is stored in the `/data/students_trajectories.csv` file. It captures the geographic origins and travel itineraries of each participant.
 
 All locations are represented by latitude and longitude coordinates, making them ready for mapping.
 
