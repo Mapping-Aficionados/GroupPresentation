@@ -1,68 +1,50 @@
-# Interactive Sankey Diagram of Global Journeys
+# The Journey to Besançon: A Spatial Narrative of ESU workshop participants trajectories
 
-This page showcases an interactive Sankey diagram created with R, visualizing the flow of travelers between various global cities. The final destination for all journeys is Besançon.
+Welcome to the `mapping_aficionados` project for the **"Humanities Data and Mapping Environments"** workshop at ESU 2025!
+
+This project visualizes the collective journey of our workshop participants from around the globe to our meeting point in Besançon, France. Using Kepler.gl, we transform a simple dataset of departure points and travel stops into a rich spatial narrative, telling the story of how our academic community comes together.
+
+## The Project
+
+The core of this project is to take tabular geographic data and use it to tell a visual story. We are mapping not just static locations, but the dynamic paths of travel that connect our individual starting points to our shared destination.
+
+
+## The Dataset
+
+Our dataset is stored in the `/data/students_trajectories.csv` file. It captures the geographic origins and travel itineraries of each participant.
+
+All locations are represented by latitude and longitude coordinates, making them ready for mapping.
+
+## Telling a Story with Layers in Kepler.gl
+
+A map is more than just points; it's a canvas for storytelling. In our Kepler.gl visualization, we use different layers to build a narrative of our journey:
+
+#### 1. Points Layer: Our Academic Origins
+*   **What it shows:** This layer plots the location of each participant's **Home Institution**.
+*   **The Story:** These points represent our global academic network. They visualize the diverse and international origins of the knowledge and perspectives converging at this workshop.
+
+#### 2. Arc Layer: The Journeys to Besançon
+*   **What it shows:** This is the heart of our story. We use an **Arc Layer** to draw lines from each participant's `home_lat_lon` (start point) to their `final_lat_lon` (end point).
+*   **The Story:** These arcs are the visual representation of travel. They trace the paths taken across continents and countries. When viewed together, they create a powerful image of a community converging on a single point.
+
+#### 3. Points Layer: The Stops Along the Way
+*   **What it shows:** This layer highlights the intermediate `Stop_1`, `Stop_2`, etc., as individual points.
+*   **The Story:** These points enrich our narrative, showing that a journey is often more than just a direct line from A to B. 
+
+## How to Explore the Map
+
+We invite you to interact with the map to discover these stories for yourself.
+
+<iframe style='width: 800px; height: 600px;' src='MappersTravels.html'></iframe>
+
+Once you have the map open, you can:
+
+1.  **Toggle Layers**: Use the layer controls on the left to turn different layers (Institutions, Journeys, Stops) on and off to focus on different aspects of the data.
+2.  **Filter the Data**: Use the filter tool to focus on a specific participant's journey. You can create a filter based on the `Name` column.
+3.  **Hover for Details**: Move your cursor over points and arcs to see tooltips displaying more information, such as the participant's name or the city they stopped in.
+4.  **Change Your Perspective**: Zoom in, pan around, and tilt the map to explore the geographic relationships from different angles.
+
+# Sankey visualization
 
 ---
 
-## The Visualization
-
-The diagram below is fully interactive. You can hover over the paths (links) and cities (nodes) to see the number of travelers. You can also drag the nodes to rearrange the diagram for better clarity.
-
-The width of each path is directly proportional to the number of people traveling that specific route.
-
-<!-- This uses HTML to embed your interactive R output directly into the page -->
-<iframe src="sankey_diagram.html" width="100%" height="550px" style="border:1px solid #ddd;"></iframe>
-
-<br>
-*A direct link to the interactive diagram can be found [here](sankey_diagram.html).*
-
----
-
-## About the Data and Code
-
-The visualization was generated from a dataset tracking the multi-step journeys of several individuals. The core task was to aggregate the individual journey legs to calculate the total flow between each source and target city.
-
-### R Code
-
-The following R code was used to process the data and generate the Sankey diagram using the `dplyr` and `networkD3` packages.
-
-```R
-# Load required libraries
-library(dplyr)
-library(networkD3)
-
-# Original travel data
-travel_data <- data.frame(
-  Source_Name = c('Peru', 'Sevilla', 'Madrid', 'Barcelona', 'Paris', 'Cairo', 'Lyon', 'Bruges', 'Brussels', 'Luxembourg', 'Shanghai', 'Xiamen', 'Paris', 'Lyon', 'Dijon', 'Tokyo', 'Shanghai', 'Paris', 'Komenda Slovenia', 'Ljubljana', 'Zagreb', 'Basel', 'Mulhouse', 'Yinchuan', 'Shanghai', 'Paris', 'Jacksonville il', 'Chicago', 'Zurich'),
-  Target_Name = c('Sevilla', 'Madrid', 'Barcelona', 'Paris', 'Besançon', 'Lyon', 'Besançon', 'Brussels', 'Luxembourg', 'Besançon', 'Xiamen', 'Paris', 'Lyon', 'Dijon', 'Besançon', 'Shanghai', 'Paris', 'Besançon', 'Ljubljana', 'Zagreb', 'Basel', 'Mulhouse', 'Besançon', 'Shanghai', 'Paris', 'Besançon', 'Chicago', 'Zurich', 'Besançon')
-)
-
-# --- Step 1: Aggregate the data to get flow values ---
-links <- travel_data %>%
-  group_by(Source_Name, Target_Name) %>%
-  summarise(value = n(), .groups = 'drop') %>%
-  rename(source = Source_Name, target = Target_Name)
-
-
-# --- Step 2: Prepare nodes and links for the diagram ---
-nodes <- data.frame(
-  name = unique(c(as.character(links$source), as.character(links$target)))
-)
-
-# Create numeric IDs for the source and target nodes
-links$IDsource <- match(links$source, nodes$name) - 1
-links$IDtarget <- match(links$target, nodes$name) - 1
-
-
-# --- Step 3: Create the Sankey Diagram ---
-sankey <- sankeyNetwork(Links = links, Nodes = nodes,
-                        Source = "IDsource", Target = "IDtarget",
-                        Value = "value", NodeID = "name",
-                        units = "Travelers",
-                        fontSize = 12, nodeWidth = 30)
-
-# To display the plot in RStudio
-sankey
-
-# To save the plot to an HTML file for embedding
-# htmlwidgets::saveWidget(sankey, "sankey_diagram.html")
