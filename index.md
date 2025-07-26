@@ -2,7 +2,7 @@
 
 Welcome to the `mapping_aficionados` project for the **"Humanities Data and Mapping Environments"** workshop at ESU 2025!
 
-<iframe style='width: 50%; ' src='workshop/ClassPhoto.jpg'></iframe>
+<img src='./workshop/ClassPhoto.jpg' alt = 'Class Photo' style = "width:35%;">
 
 This project visualizes the collective journey of our workshop participants from around the globe to our meeting point in Besançon, France. Using Kepler.gl, we transform a simple dataset of departure points and travel stops into a rich spatial narrative, telling the story of how our academic community comes together.
 
@@ -52,8 +52,10 @@ Here's another visualization of the data using R, with a [sankey diagram](sankey
 
 # A third visualization
 
-Here's a third visualization of the [data with avatars](ESU_HDME_Students_Journey.html). 
+Here's another visualization of the data with avatars.
+<iframe style='width: 800px; height: 600px;' src='ESU_HDME_Students_Journey.html)'></iframe>
 
 # What we've been doing so far in the course? 
 
 We have prepared a [brief summary](workshop/week1_summary.md) of it!
+ 
