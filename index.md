@@ -51,6 +51,4 @@ Here's another visualization of the data using R, with a [sankey diagram](sankey
 
 # What we've been doing so far in the course? 
 
-We have prepared a [brief summary](workshop/week1_summary.md) of it and some pics to share!
-
-<iframe src="C:\Users\Lenovo\OneDrive\Documents\ESU\GroupPresentation\Visit to Bibliothèque d’étude et de conservation\6c927d25-55d8-4ab4-987f-90dccb6f8f1c.JPG" width="100%" height="800"></iframe>
+We have prepared a [brief summary](workshop/week1_summary.md) of it!
