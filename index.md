@@ -58,4 +58,8 @@ Here's another visualization of the data with avatars.
 # What we've been doing so far in the course? 
 
 We have prepared a [brief summary](workshop/week1_summary.md) of it!
- 
+
+---
+# Workshop Photos
+
+Here are some photos from the [workshop](Photos.md)
