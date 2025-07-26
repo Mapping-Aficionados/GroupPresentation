@@ -46,5 +46,6 @@ Once you have the map open, you can:
 
 # Sankey visualization
 
+Here's another visualization of the data using R, with a [sankey diagram](sankey.md). 
 ---
 
