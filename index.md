@@ -52,7 +52,7 @@ Here's another visualization of the data using R, with a [sankey diagram](sankey
 
 # A third visualization
 
-Here's a third visualization of the [data with avatars](GroupPresentation/ESU_HDME_Students_Journey.html). 
+Here's a third visualization of the [data with avatars](ESU_HDME_Students_Journey.html). 
 
 # What we've been doing so far in the course? 
 
