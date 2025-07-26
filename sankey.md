@@ -39,11 +39,11 @@ travel_data <- data.frame(
   Target_Name = c('Sevilla', 'Madrid', 'Barcelona', 'Paris', 'Besançon', 'Lyon', 'Besançon', 'Brussels', 'Luxembourg', 'Besançon', 'Xiamen', 'Paris', 'Lyon', 'Dijon', 'Besançon', 'Shanghai', 'Paris', 'Besançon', 'Ljubljana', 'Zagreb', 'Basel', 'Mulhouse', 'Besançon', 'Shanghai', 'Paris', 'Besançon', 'Chicago', 'Zurich', 'Besançon')
 )
 
-```
+``` R
 
 ### Step 1: Aggregate the data to get flow values
 
-``` r
+``` R
 links <- travel_data %>%
   group_by(Source_Name, Target_Name) %>%
   summarise(value = n(), .groups = 'drop') %>%
@@ -51,20 +51,20 @@ links <- travel_data %>%
 ```
 
 ### Step 2: Prepare nodes and links for the diagram
-```
+``` R
 nodes <- data.frame(
   name = unique(c(as.character(links$source), as.character(links$target)))
 )
 ```
 
 ### Create numeric IDs for the source and target nodes
-```
+``` R
 links$IDsource <- match(links$source, nodes$name) - 1
 links$IDtarget <- match(links$target, nodes$name) - 1
 ```
 
 ### Step 3: Create the Sankey Diagram
-```
+``` R
 sankey <- sankeyNetwork(Links = links, Nodes = nodes,
                         Source = "IDsource", Target = "IDtarget",
                         Value = "value", NodeID = "name",
@@ -73,11 +73,11 @@ sankey <- sankeyNetwork(Links = links, Nodes = nodes,
 ```
 
 ### To display the plot in RStudio
-```
+``` R
 sankey
 ```
 
 ### To save the plot to an HTML file for embedding
-```
+``` R
 htmlwidgets::saveWidget(sankey, "sankey_diagram.html")
 ```
