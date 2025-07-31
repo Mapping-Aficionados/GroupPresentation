@@ -28,7 +28,7 @@ Team members independently described observed patterns. We created custom catego
 Through structured discussions, we compared individual interpretations. This process revealed both consensus patterns and interesting outlier observations. All findings were compiled in Google Sheets. The database linked geotagged photos with multiple interpretation columns for cross-analysis.  
 
 ## 4. Technical Processing of Images  
-Image files underwent batch compression for storage efficiency. Care was taken to preserve all visually significant pattern details. Images were compressed to facilitate their uploading and we extraccted thumbnails for each image.
+Image files underwent batch compression for storage efficiency. Care was taken to preserve all visually significant pattern details. Images were compressed to facilitate their uploading and we extracted thumbnails for each image.
 
 ## 5. Publication on GitHub
 The annotated collection was uploaded to GitHub. This public repository enables ongoing access for future researchers. We had fun in the process and the pictures had often very funny shapes.  
