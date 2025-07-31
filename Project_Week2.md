@@ -14,67 +14,44 @@ All locations are represented by latitude and longitude coordinates, making them
 
 _______________________________________________________________________________
 
-# Urban Wall Markings Documentation Project - Besançon
-# Summary of the group work and workflow (Thursday, 2-3:30pm)
-
+# Urban Wall Marks Documentation Project - Besançon  
+## Summary of the group work and workflow (Thursday, 2-3:30pm)  
 
 ## 1. Introduction  
-- Urban exploration project documenting mysterious wall markings  
-- Focused on Besançon's historic city center architecture  
+Our team investigated mysterious patterns on urban walls throughout Besançon. The project focused on architectural surfaces in the historic city center.  
 
 ## 2. Objectives  
-- Catalog and analyze hidden visual language of walls  
-- Interpret possible meanings behind surface patterns  
+We aimed to systematically catalog wall markings citywide. Secondary goals included analyzing patterns and interpreting their potential hidden meanings.  
 
 ## 3. Data Collection  
-- Photographed 100+ wall surfaces using smartphones  
-- Precise geotagging of each discovery location  
+Using smartphone cameras, we captured 100+ wall surfaces. Each photo was precisely geotagged to map discovery locations accurately.  
 
 ## 4. Annotation Process  
-- Independent pattern descriptions by each group member  
-- Custom categories: "whale", "human visage", "animal", "symbolic"  
+Team members independently described observed patterns. We created custom categories including whale shapes, faces, animals, and symbolic forms.  
 
 ## 5. Interpretation Challenges  
-- Frequent disagreements on ambiguous shapes  
-- Difficulty distinguishing natural vs man-made formations  
+Disagreements arose when shapes appeared ambiguous. Distinguishing natural erosion from intentional markings proved particularly difficult at many sites.  
 
 ## 6. Collaborative Analysis  
-- Structured debates to compare interpretations  
-- Identified both consensus patterns and outliers  
+Through structured discussions, we compared individual interpretations. This process revealed both consensus patterns and interesting outlier observations.  
 
 ## 7. Data Organization  
-- Comprehensive Google Sheet database  
-- Linked geotagged photos with multiple interpretation columns  
+All findings were compiled in Google Sheets. The database linked geotagged photos with multiple interpretation columns for cross-analysis.  
 
 ## 8. Technical Processing  
-- Batch compression of image files  
-- Preserved critical visual details  
+Image files underwent batch compression for storage efficiency. Care was taken to preserve all visually significant pattern details.  
 
 ## 9. Publication  
-- Complete collection hosted on GitHub  
-- Publicly accessible for future research  
+The complete annotated collection was uploaded to GitHub. This public repository enables ongoing access for future researchers.  
 
 ## 10. Team Experience  
-- Energetic collaborative atmosphere  
-- Intense discussions physically warmed workspace  
+Collaboration created an exceptionally energetic working environment. Our intense brainstorming sessions noticeably raised the room's temperature.  
 
 ## 11. Key Findings  
-- Recurring motif clusters discovered  
-- Possible cultural/architectural significance  
+We identified several recurring motif clusters. These patterns may hold cultural or architectural significance worth further investigation.  
 
 ## 12. Lessons Learned  
-- Improved documentation methodologies  
-- Better interpretation frameworks for ambiguous visuals  
+We developed improved documentation techniques. New frameworks emerged for interpreting ambiguous urban visual phenomena effectively.  
 
 ## 13. Conclusion  
-- First systematic documentation of Besançon's wall patterns  
-- Successful collaborative analysis approach  
-
-
-
-<iframe style='width: 800px; height: 600px;' src='MappersTravels.html'></iframe>
-
-
-
-Here's another visualization of the data with avatars.
-<iframe style='width: 800px; height: 600px;' src='ESU_HDME_Students_Journey.html'></iframe>
+This project created Besançon's first systematic wall pattern record. Our collaborative approach proved highly successful for urban analysis.  
