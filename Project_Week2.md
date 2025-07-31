@@ -22,7 +22,7 @@ Our team investigated mysterious patterns on urban walls throughout Besançon. T
 Using smartphone cameras, we captured 100+ wall surfaces. Each photo was precisely geotagged to map discovery locations accurately.  
 
 ## 2. Annotation Process  
-Team members independently described observed patterns. We created custom categories including whale shapes, faces, animals, and symbolic forms.  Disagreements arose when shapes appeared ambiguous. Distinguishing natural erosion from intentional markings proved particularly difficult at many sites.  
+Team members independently described observed patterns. We created custom categories including animal shapes, faces, objects and symbolic forms.  Disagreements arose when shapes appeared ambiguous.
 
 ## 3. Collaborative Analysis and Data Organization
 Through structured discussions, we compared individual interpretations. This process revealed both consensus patterns and interesting outlier observations. All findings were compiled in Google Sheets. The database linked geotagged photos with multiple interpretation columns for cross-analysis.  
