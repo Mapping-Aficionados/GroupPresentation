@@ -12,6 +12,64 @@ All locations are represented by latitude and longitude coordinates, making them
 
 ## Telling a Story with Layers in Kepler.gl
 
+_______________________________________________________________________________
+
+# Urban Wall Markings Documentation Project - Besançon
+# Summary of the group work and workflow (Thursday, 2-3:30pm)
+
+
+## 1. Introduction  
+- Urban exploration project documenting mysterious wall markings  
+- Focused on Besançon's historic city center architecture  
+
+## 2. Objectives  
+- Catalog and analyze hidden visual language of walls  
+- Interpret possible meanings behind surface patterns  
+
+## 3. Data Collection  
+- Photographed 100+ wall surfaces using smartphones  
+- Precise geotagging of each discovery location  
+
+## 4. Annotation Process  
+- Independent pattern descriptions by each group member  
+- Custom categories: "whale", "human visage", "animal", "symbolic"  
+
+## 5. Interpretation Challenges  
+- Frequent disagreements on ambiguous shapes  
+- Difficulty distinguishing natural vs man-made formations  
+
+## 6. Collaborative Analysis  
+- Structured debates to compare interpretations  
+- Identified both consensus patterns and outliers  
+
+## 7. Data Organization  
+- Comprehensive Google Sheet database  
+- Linked geotagged photos with multiple interpretation columns  
+
+## 8. Technical Processing  
+- Batch compression of image files  
+- Preserved critical visual details  
+
+## 9. Publication  
+- Complete collection hosted on GitHub  
+- Publicly accessible for future research  
+
+## 10. Team Experience  
+- Energetic collaborative atmosphere  
+- Intense discussions physically warmed workspace  
+
+## 11. Key Findings  
+- Recurring motif clusters discovered  
+- Possible cultural/architectural significance  
+
+## 12. Lessons Learned  
+- Improved documentation methodologies  
+- Better interpretation frameworks for ambiguous visuals  
+
+## 13. Conclusion  
+- First systematic documentation of Besançon's wall patterns  
+- Successful collaborative analysis approach  
+
 
 
 <iframe style='width: 800px; height: 600px;' src='MappersTravels.html'></iframe>
