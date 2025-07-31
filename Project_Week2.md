@@ -19,39 +19,21 @@ _______________________________________________________________________________
 
 ## 1. Introduction  
 Our team investigated mysterious patterns on urban walls throughout Besançon. The project focused on architectural surfaces in the historic city center.  
-
-## 2. Objectives  
-We aimed to systematically catalog wall markings citywide. Secondary goals included analyzing patterns and interpreting their potential hidden meanings.  
-
-## 3. Data Collection  
 Using smartphone cameras, we captured 100+ wall surfaces. Each photo was precisely geotagged to map discovery locations accurately.  
 
-## 4. Annotation Process  
-Team members independently described observed patterns. We created custom categories including whale shapes, faces, animals, and symbolic forms.  
+## 2. Annotation Process  
+Team members independently described observed patterns. We created custom categories including whale shapes, faces, animals, and symbolic forms.  Disagreements arose when shapes appeared ambiguous. Distinguishing natural erosion from intentional markings proved particularly difficult at many sites.  
 
-## 5. Interpretation Challenges  
-Disagreements arose when shapes appeared ambiguous. Distinguishing natural erosion from intentional markings proved particularly difficult at many sites.  
+## 3. Collaborative Analysis and Data Organization
+Through structured discussions, we compared individual interpretations. This process revealed both consensus patterns and interesting outlier observations. All findings were compiled in Google Sheets. The database linked geotagged photos with multiple interpretation columns for cross-analysis.  
 
-## 6. Collaborative Analysis  
-Through structured discussions, we compared individual interpretations. This process revealed both consensus patterns and interesting outlier observations.  
+## 4. Technical Processing of Images  
+Image files underwent batch compression for storage efficiency. Care was taken to preserve all visually significant pattern details. Images were compressed to facilitate their uploading and we extraccted thumbnails for each image.
 
-## 7. Data Organization  
-All findings were compiled in Google Sheets. The database linked geotagged photos with multiple interpretation columns for cross-analysis.  
+## 5. Publication on GitHub
+The annotated collection was uploaded to GitHub. This public repository enables ongoing access for future researchers. We had fun in the process and the pictures had often very funny shapes.  
 
-## 8. Technical Processing  
-Image files underwent batch compression for storage efficiency. Care was taken to preserve all visually significant pattern details.  
+## 6. Conclusions  
+We identified several recurring motif clusters. These patterns may hold cultural or architectural significance worth further investigation. We developed improved documentation techniques. New frameworks emerged for interpreting ambiguous urban visual phenomena effectively.  
 
-## 9. Publication  
-The complete annotated collection was uploaded to GitHub. This public repository enables ongoing access for future researchers.  
-
-## 10. Team Experience  
-Collaboration created an exceptionally energetic working environment. Our intense brainstorming sessions noticeably raised the room's temperature.  
-
-## 11. Key Findings  
-We identified several recurring motif clusters. These patterns may hold cultural or architectural significance worth further investigation.  
-
-## 12. Lessons Learned  
-We developed improved documentation techniques. New frameworks emerged for interpreting ambiguous urban visual phenomena effectively.  
-
-## 13. Conclusion  
-This project created Besançon's first systematic wall pattern record. Our collaborative approach proved highly successful for urban analysis.  
+This project created Besançon's first (and so far unique) systematic wall patterns record.
