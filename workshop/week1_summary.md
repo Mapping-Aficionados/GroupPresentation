@@ -32,5 +32,5 @@ Here is an interactive word cloud generated from our workshop syllabus. Click on
 
 <iframe 
   src="https://voyant-tools.org/?corpus=ee53533cad42619aa2362cbca6c9b6d1&palette=Observable10&stopList=keywords-9155808726106eaa4db5c9f66af059e1&whiteList=&visible=125&view=Cirrus"
-  style="width: 100%; border: 1px solid #ccc;">
+  style="width: 100%; height: 400; border: 1px solid #ccc;">
 </iframe>
