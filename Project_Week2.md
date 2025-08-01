@@ -11,5 +11,5 @@ Here is a description of our ['workflow'](Workflow.md).
 
 ## Representation of categories 
 
-<iframe style="width: 100%; height: 100vh; border: none;" src="3Dcategories.html"></iframe>
+<iframe style="width: 100%; height: 100vh; border: none;" src="3Dcategories1.html"></iframe>
 
