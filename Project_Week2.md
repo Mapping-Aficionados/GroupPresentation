@@ -2,41 +2,16 @@
 
 Our project examined the unique limestone façades of Besançon’s historic city center, focusing on the city’s recurring bluish and cream-colored stone patterns. Motivated by the surprising variations left by quarrying and stone-cutting, we set out to document, analyze, and interpret these urban features.
 
+Here is a description of our ['workflow'](Workflow.md).
+
+## Interactive map of our project
+
+<iframe style="width: 100%; height: 100vh; border: none;" src="MapBesancon.html"></iframe>
 
 
-Each student in the class took photos of patterns that interested them. We ended up with around one hundred photos. Each person examined the photo and jotted a note about what *they* thought the image resembled, a city-wide collection of [Rorschach-blots](https://en.wikipedia.org/wiki/Rorschach_test).
+## Representation of categories 
 
-## Summary of the group work and workflow 
+<iframe style="width: 100%; height: 100vh; border: none;" src="3Dcategories1.html"></iframe>
 
-## 1. Fieldwork & Documentation
-
-- **Photographic Collection**: Each student used a smartphone to photograph intriguing limestone wall patterns found throughout Besançon. We gathered over 100 images, ensuring each photo was geotagged for precise location mapping.
-
-## 2. Annotation & Categorization
-
-- **Individual Meaning-Making**: Every participant described what each image resembled to them—resulting in a collaborative “citywide Rorschach test.”
-- **Custom Categories**: We then developed codes for recurring motifs (animals, faces, objects, abstract/symbolic forms). To do this, we tested different categorisation methods.
-
-## 3. Analysis and Data Curation
-
-- **Data Structuring**: All annotation data, image links, and geotags were consolidated in a shared Google Sheet and then exported to a CSV file [`Project1_Data_grouped.csv`](https://github.com/Mapping-Aficionados/GroupPresentation/blob/main/Project1_Data_grouped.csv). Multiple description columns allow for cross-comparison and deeper analysis.
-
-** NEED MORE DESCRIPTION OF PROCESS HERE **
-
-## 4. Technical Processing of Images  
-Image files underwent batch compression for storage efficiency. Care was taken to preserve all visually significant pattern details. Images were compressed to facilitate their uploading and we extraccted thumbnails for each image. We used the [ILoveImages](https://www.iloveimg.com/) website. It worked amazingly and it's free.
-
-We also tried to use the Apple **SIPS** utility, but could not get it to work correctly.
-
-## 5. The dataset
-
-Our dataset is stored in the [/data/XXXXXX.CSV](https://github.com/Mapping-Aficionados/GroupPresentation/blob/main/data/students_trajectories.csv) file. ** THIS IS THE WRONG DATA FILE -- UPDATE WITH CORRECT LINK ** It captures the geographic origins and travel itineraries of each participant.
-
-Each row includes the photo filename, links to different sized versions of the photo, and students' descriptions of what the images reminded them of.
-
-## 6. Map creation 
-
-## Conclusions  
-We identified several recurring motif clusters. These patterns may hold cultural or architectural significance worth further investigation. We developed improved documentation techniques. New frameworks emerged for interpreting ambiguous urban visual phenomena effectively.  
-
-This project created Besançon's first (and so far unique) systematic wall patterns record.
+## Besançon Directory Map
+<iframe style="width: 100%; height: 100vh; border: none;" src="BesanconDirectoryMap.html"></iframe>
