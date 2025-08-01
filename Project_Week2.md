@@ -13,3 +13,5 @@ Here is a description of our ['workflow'](Workflow.md).
 
 <iframe style="width: 100%; height: 100vh; border: none;" src="3Dcategories1.html"></iframe>
 
+## Besançon Directory Map
+<iframe style="width: 100%; height: 100vh; border: none;" src="BesanconDirectoryMap.html"></iframe>
