@@ -40,7 +40,9 @@ Once you have the map open, you can:
 
 # Sankey visualization
 
-Here's another visualization of the data using R, with a [sankey diagram](sankey.md).
+Here's a [sankey diagram](https://en.wikipedia.org/wiki/Sankey_diagram) that visualizes the workshop participatants' travels differently.
+
+<iframe style='width: 800px; height: 600px;' src='sankey_diagram.html'></iframe>
 
 # A third visualization
 
