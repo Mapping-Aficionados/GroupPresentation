@@ -6,9 +6,10 @@ Here is a description of our ['workflow'](Workflow.md).
 
 ## Interactive map of our project
 
-<iframe style='width: 800px, height: 600px;' src='MapBesancon.html'></iframe>
+<iframe style="width: 100%; height: 100vh; border: none;" src="MapBesancon.html"></iframe>
+
 
 ## Representation of categories 
 
-<iframe style='width: 800px, height: 600px;' src='3Dcategories.html'></iframe>
+<iframe style="width: 100%; height: 100vh; border: none;" src="3Dcategories1.html"></iframe>
 
