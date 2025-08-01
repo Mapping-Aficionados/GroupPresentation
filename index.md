@@ -23,7 +23,7 @@ This project visualizes the collective journey of our workshop participants from
 
 Our initial project mapped our travels to Besancon. There are several different visualizations that can be seen [here](Project_Week1.md)
 
-## Week 2 Project
+## [Week 2 Project](Project_Week2.md)
 ### Project Stone
 
 Besançon is famous (kinda) for using "La pierre de Chailluz". This is a very particular type of stone due to its colour, which is a result of the erosion that affected this mineral through time. The city was build near a mine in Chailluz, inside a forest. The contrast resulting of the erosion results in a blue-yellowish sort of pattern, which lead us to encountering funny and interesting shapes all over the city. 
@@ -32,7 +32,7 @@ Besançon is famous (kinda) for using "La pierre de Chailluz". This is a very pa
 
 If you want to check more about the Chailluz forest, [click here](https://www.besac.com/tourisme-besancon/foret_de_chailluz/100.htm)!
 
-The larger project is a collection of our photographs of interesting images we saw on the rock walls of the buildings in the city. There is a [page](Project_Week2.md) describing the project and what *we* saw on the walls. You will doubtless see other things.
+The larger project is a collection of our photographs of interesting images we saw on the rock walls of the buildings in the city. There is a [**page**](Project_Week2.md) describing the project and what *we* saw on the walls. You will doubtless see other things.
 
 
 ---
