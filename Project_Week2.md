@@ -1,21 +1,25 @@
 # The Week 2 Project: Urban Wall Marks Documentation Project - Besançon
 
-The final project was based on the observation that many buildings in the city are made of a local limestone that has distinct bluish and yellow/cream patterns. When quarried and cut into blocks, the different colors appear on the faces of the blocks that are visible from the street.
+Our project examined the unique limestone façades of Besançon’s historic city center, focusing on the city’s recurring bluish and cream-colored stone patterns. Motivated by the surprising variations left by quarrying and stone-cutting, we set out to document, analyze, and interpret these urban features.
+
+
 
 Each student in the class took photos of patterns that interested them. We ended up with around one hundred photos. Each person examined the photo and jotted a note about what *they* thought the image resembled, a city-wide collection of [Rorschach-blots](https://en.wikipedia.org/wiki/Rorschach_test).
 
 ## Summary of the group work and workflow 
 
-## 1. Introduction  
-Our team investigated mysterious patterns on urban walls throughout Besançon. The project focused on architectural surfaces in the historic city center.
+## 1. Fieldwork & Documentation
 
-Using smartphone cameras, we captured 100+ wall surfaces. Each photo was precisely geotagged to map discovery locations accurately.  
+- **Photographic Collection**: Each student used a smartphone to photograph intriguing limestone wall patterns found throughout Besançon. We gathered over 100 images, ensuring each photo was geotagged for precise location mapping.
 
-## 2. Annotation Process  
-Team members independently described observed patterns. We created custom categories including animal shapes, faces, objects and symbolic forms.  Disagreements arose when shapes appeared ambiguous.
+## 2. Annotation & Categorization
 
-## 3. Collaborative Analysis and Data Organization
-Through structured discussions, we compared individual interpretations. This process revealed both consensus patterns and interesting outlier observations. All findings were compiled in Google Sheets. The database linked geotagged photos with multiple interpretation columns for cross-analysis.
+- **Individual Meaning-Making**: Every participant described what each image resembled to them—resulting in a collaborative “citywide Rorschach test.”
+- **Custom Categories**: We then developed codes for recurring motifs (animals, faces, objects, abstract/symbolic forms). To do this, we tested different categorisation methods.
+
+## 3. Analysis and Data Curation
+
+- **Data Structuring**: All annotation data, image links, and geotags were consolidated in a shared Google Sheet and then exported to a CSV file [`Project1_Data_grouped.csv`](https://github.com/Mapping-Aficionados/GroupPresentation/blob/main/Project1_Data_grouped.csv). Multiple description columns allow for cross-comparison and deeper analysis.
 
 ** NEED MORE DESCRIPTION OF PROCESS HERE **
 
