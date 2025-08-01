@@ -4,7 +4,7 @@ The final project was based on the observation that many buildings in the city a
 
 Each student in the class took photos of patterns that interested them. We ended up with around one hundred photos. Each person examined the photo and jotted a note about what *they* thought the image resembled, a city-wide collection of [Rorschach-blots](https://en.wikipedia.org/wiki/Rorschach_test).
 
-## Summary of the group work and workflow (Thursday, 2-3:30pm)  
+## Summary of the group work and workflow 
 
 ## 1. Introduction  
 Our team investigated mysterious patterns on urban walls throughout Besançon. The project focused on architectural surfaces in the historic city center.
