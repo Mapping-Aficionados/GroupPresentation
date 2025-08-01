@@ -6,7 +6,7 @@ Here is a description of our ['workflow'](Workflow.md).
 
 ## Interactive map of our project
 
-<iframe style="width: 100%; height: 100vh; border: none;" src="concensus_map.html"></iframe>
+<iframe style="width: 100%; height: 100vh; border: none;" src="presentation\final_presentation_map\index.html"></iframe>
 
 
 ## Representation of categories 
