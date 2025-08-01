@@ -25,7 +25,7 @@ We also tried to use the Apple **SIPS** utility, but could not get it to work co
 
 ## 5. The dataset
 
-Our dataset is stored in the [`TBA`](https://github.com/Mapping-Aficionados/GroupPresentation/blob/main/data/***.csv) file.
+Our dataset is stored in the [`ESUDH HDME final geotagged dataset`](https://github.com/Mapping-Aficionados/GroupPresentation/blob/main/data/ESUHDMEfinal_geotagged_dataset.csv)) file.
 
 Each row includes the photo filename, links to different sized versions of the photo, and students' descriptions of what the images reminded them of in addition to the more general categories imputed from the descriptions.
 
