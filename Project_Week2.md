@@ -17,3 +17,5 @@ Here is a description of our ['workflow'](Workflow.md).
 
 ## Besançon Directory Map
 <iframe style="width: 100%; height: 100vh; border: none;" src="BesanconDirectoryMap.html"></iframe>
+
+You can read a simplified version of [steps to produce](MethodologyDirectorMap.md) this map.
