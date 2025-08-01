@@ -38,7 +38,7 @@ The larger project is a collection of our photographs of interesting images we s
 
 <img src='Photographs/class-photo-garden.jpeg' alt = 'Class photo in the courtyard' width = "500">
 <img src='Photographs/books-biblio.JPG' alt = 'Books in the municipal library' width = "500">
-<img src='LPhotographs/books-biblio2.JPG' alt = 'Corridor of the municipal library' width = "500">
+<img src='Photographs/books-biblio2.JPG' alt = 'Corridor of the municipal library' width = "500">
 <img src='LibraryVisit/map-besançon.jpg' alt = 'Ancient map of Besançon' width = "500">
 
 Here are more photos from the [workshop](Photos.md)
