@@ -4,8 +4,6 @@
 
 Welcome to the `mapping_aficionados` project for the **"Humanities Data and Mapping Environments"** workshop at ESU 2025!
 
-<img src='workshop/ClassPhoto.jpg' alt = 'Class Photo' width = "500">
-
 <img src='Photographs/image2.jpeg' alt = 'Class Photo with a stone wall' width = "500">
 
 In the ESUDH 2025, we worked on a number of Besançon specific projects. First, we took an example from the Annuaire du Doubs (a local regional directory) and from the subsection known as "Liste des habitants de Besançon" and created a map color coded by profession.
@@ -40,4 +38,9 @@ The larger project is a collection of our photographs of interesting images we s
 ---
 # Workshop Photos
 
-Here are some photos from the [workshop](Photos.md)
+<img src='Photographs/class-photo-garden.jpeg' alt = 'Class photo in the courtyard' width = "500">
+<img src='Photographs/books-biblio.JPG' alt = 'Books in the municipal library' width = "500">
+<img src='Photographs/books-biblio2.JPG' alt = 'Corridor of the municipal library' width = "500">
+<img src='LibraryVisit/map-besançon.jpg' alt = 'Ancient map of Besançon' width = "500">
+
+Here are more photos from the [workshop](Photos.md)
