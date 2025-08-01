@@ -1,4 +1,4 @@
-# The Week 2 Project: Urban Wall Marks Documentation Project - Besançon
+# The Week 2 Projects: Besançon's Urban Wall Marks Documentation and City Directory Projects
 
 Our project examined the unique limestone façades of Besançon’s historic city center, focusing on the city’s recurring bluish and cream-colored stone patterns. Motivated by the surprising variations left by quarrying and stone-cutting, we set out to document, analyze, and interpret these urban features.
 
