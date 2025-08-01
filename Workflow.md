@@ -23,7 +23,7 @@ We also tried to use the Apple **SIPS** utility, but could not get it to work co
 
 ## 5. The dataset
 
-Our dataset is stored in the [/data/XXXXXX.CSV](https://github.com/Mapping-Aficionados/GroupPresentation/blob/main/data/students_trajectories.csv) file. ** THIS IS THE WRONG DATA FILE -- UPDATE WITH CORRECT LINK ** It captures the geographic origins and travel itineraries of each participant.
+Our dataset is stored in the [`students_trajectories.csv`](https://github.com/Mapping-Aficionados/GroupPresentation/blob/main/data/students_trajectories.csv) file. ** THIS IS THE WRONG DATA FILE -- UPDATE WITH CORRECT LINK ** It captures the geographic origins and travel itineraries of each participant.
 
 Each row includes the photo filename, links to different sized versions of the photo, and students' descriptions of what the images reminded them of.
 
