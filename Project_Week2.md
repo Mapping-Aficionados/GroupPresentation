@@ -11,7 +11,7 @@ Here is a description of our ['workflow'](Workflow.md).
 
 ## Representation of categories 
 
-<iframe style="width: 100%; height: 100vh; border: none;" src="3Dcategories1.html"></iframe>
+<iframe style="width: 100%; height: 100vh; border: none;" src="presentation map files/final_presentation_map/index.html"></iframe>
 
 [Here](Methodology-Clustering.md) you can read more about the Methodology of Semantic Clustering of Visual Pattern Annotations
 
