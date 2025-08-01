@@ -13,6 +13,8 @@
 ## 3. Analysis and Data Curation
 
 - **Data Structuring**: All annotation data, image links, and geotags were consolidated in a shared Google Sheet and then exported to a CSV file [`Project1_Data_grouped.csv`](https://github.com/Mapping-Aficionados/GroupPresentation/blob/main/Project1_Data_grouped.csv). Multiple description columns allow for cross-comparison and deeper analysis.
+- **EXIF data extraction**: We extracted EXIF data from the geotagged photos using the `EXIFR` package and appended latitudes and longitudes to the dataset.
+- **Matching Color Palette**: We matched the 
 
 ** NEED MORE DESCRIPTION OF PROCESS HERE **
 
@@ -23,11 +25,15 @@ We also tried to use the Apple **SIPS** utility, but could not get it to work co
 
 ## 5. The dataset
 
-Our dataset is stored in the [`students_trajectories.csv`](https://github.com/Mapping-Aficionados/GroupPresentation/blob/main/data/students_trajectories.csv) file. ** THIS IS THE WRONG DATA FILE -- UPDATE WITH CORRECT LINK ** It captures the geographic origins and travel itineraries of each participant.
+Our dataset is stored in the [`TBA`](https://github.com/Mapping-Aficionados/GroupPresentation/blob/main/data/***.csv) file.
 
-Each row includes the photo filename, links to different sized versions of the photo, and students' descriptions of what the images reminded them of.
+Each row includes the photo filename, links to different sized versions of the photo, and students' descriptions of what the images reminded them of in addition to the more general categories imputed from the descriptions.
 
 ## 6. Map creation 
+
+- We created the map in `QGIS` using the `QGIS2WEB` plugin with two layers, one that focuses on the degree of consensus and another that classifies the data according to the most common category of annotations. In the latter we only use high and medium consensus tags. 
+- We designed the pop up boxes to contain the information we wanted to show.
+- We matched the color palette for the various categories created in Plotly as described [here](https://mapping-aficionados.github.io/GroupPresentation/Methodology-Clustering.html) 
 
 ## Conclusions  
 We identified several recurring motif clusters. These patterns may hold cultural or architectural significance worth further investigation. We developed improved documentation techniques. New frameworks emerged for interpreting ambiguous urban visual phenomena effectively.  
