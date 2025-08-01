@@ -14,7 +14,6 @@
 
 - **Data Structuring**: All annotation data, image links, and geotags were consolidated in a shared Google Sheet and then exported to a CSV file [`Project1_Data_grouped.csv`](https://github.com/Mapping-Aficionados/GroupPresentation/blob/main/Project1_Data_grouped.csv). Multiple description columns allow for cross-comparison and deeper analysis.
 - **EXIF data extraction**: We extracted EXIF data from the geotagged photos using the `EXIFR` package and appended latitudes and longitudes to the dataset.
-- **Matching Color Palette**: We matched the 
 
 ** NEED MORE DESCRIPTION OF PROCESS HERE **
 
@@ -35,7 +34,8 @@ Each row includes the photo filename, links to different sized versions of the p
 - We designed the pop up boxes to contain the information we wanted to show.
 - We matched the color palette for the various categories created in Plotly as described [here](https://mapping-aficionados.github.io/GroupPresentation/Methodology-Clustering.html) 
 
-## Conclusions  
-We identified several recurring motif clusters. These patterns may hold cultural or architectural significance worth further investigation. We developed improved documentation techniques. New frameworks emerged for interpreting ambiguous urban visual phenomena effectively.  
+## Conclusions 
+
+Making the map not only taught us a workflow for creating a categorized map from image data collected with smartphones, but it allowed us to identify several recurring motif clusters. These patterns may hold cultural or architectural significance worth further investigation. We developed improved documentation techniques. New frameworks emerged for interpreting ambiguous urban visual phenomena effectively.  
 
 This project created Besançon's first (and so far unique) systematic wall patterns record.
