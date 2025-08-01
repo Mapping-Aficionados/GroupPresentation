@@ -1,5 +1,7 @@
 # Mapping in Besançon
 
+<img src='QR_code.jpg' alt = 'QR code' width = "500">
+
 Welcome to the `mapping_aficionados` project for the **"Humanities Data and Mapping Environments"** workshop at ESU 2025!
 
 <img src='workshop/ClassPhoto.jpg' alt = 'Class Photo' width = "500">
