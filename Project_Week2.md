@@ -2,13 +2,13 @@
 
 The final project was based on the observation that many buildings in the city are made of a local limestone that has distinct bluish and yellow/cream patterns. When quarried and cut into blocks, the different colors appear on the faces of the blocks that are visible from the street.
 
-Each student in the class took some photos of patterns that interested them. We ended up with around one hundred photos. Each person examined the photo and jotted a note about what *they* thought the image resembled, a city-wide collection of [Rorschach-blots](https://en.wikipedia.org/wiki/Rorschach_test).
+Each student in the class took photos of patterns that interested them. We ended up with around one hundred photos. Each person examined the photo and jotted a note about what *they* thought the image resembled, a city-wide collection of [Rorschach-blots](https://en.wikipedia.org/wiki/Rorschach_test).
 
 ## The Dataset
 
-Our dataset is stored in the `/data/students_trajectories.csv` file. It captures the geographic origins and travel itineraries of each participant.
+Our dataset is stored in the [/data/XXXXXX.CSV](https://github.com/Mapping-Aficionados/GroupPresentation/blob/main/data/students_trajectories.csv) file. ** THIS IS THE WRONG DATA FILE -- UPDATE WITH CORRECT LINK ** It captures the geographic origins and travel itineraries of each participant.
 
-All locations are represented by latitude and longitude coordinates, making them ready for mapping.
+Each row includes the photo filename, links to different sized versions of the photo, and students' descriptions of what the images reminded them of.
 
 ## Telling a Story with Layers in Kepler.gl
 
