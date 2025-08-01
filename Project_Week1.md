@@ -42,7 +42,7 @@ Once you have the map open, you can:
 
 Here's another visualization of the data using R, with a [sankey diagram].
 
-<iframe style='width: 800px; height: 600px;' src='[>](https://en.wikipedia.org/wiki/Sankey_diagram#/media/File:Sankeysteam.png)</iframe>
+<iframe style='width: 800px; height: 600px;' src='[>]([)](https://upload.wikimedia.org/wikipedia/commons/1/11/Sankeysteam.png)</iframe>
   
 # A third visualization
 
