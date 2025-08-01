@@ -41,7 +41,9 @@ Once you have the map open, you can:
 # Sankey visualization
 
 Here's another visualization of the data using R, with a [sankey diagram].
+
 <iframe style='width: 800px; height: 600px;' src='[>](https://en.wikipedia.org/wiki/Sankey_diagram#/media/File:Sankeysteam.png)</iframe>
+  
 # A third visualization
 
 Here's another visualization of the data with avatars.
